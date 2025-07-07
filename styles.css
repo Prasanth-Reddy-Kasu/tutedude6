@@ -1,0 +1,33 @@
+body {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+}
+
+.weather-card {
+  background: linear-gradient(145deg, #1c1c1c, #333);
+  border: 0.125rem solid #0ff;
+  color: #0ff;
+  width: 90vw;
+  max-width: 25rem;
+  padding: 2rem;
+  box-shadow: 0 0 2rem #0ff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.weather-card:hover {
+  transform: scale(1.02);
+}
+
+button#refreshBtn {
+  font-size: 1.1rem;
+  border-radius: 2rem;
+  border: 0.125rem solid #0ff;
+  color: #0ff;
+  transition: background 0.3s, color 0.3s;
+}
+
+button#refreshBtn:hover {
+  background: #0ff;
+  color: #000;
+}
